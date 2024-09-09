@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #69757b, #2c4c52,  #69757b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 600px;
+    background: url("images/travel-hd-axhrsecphqby11wk.jpg") center/cover; /* Ensure this path is correct */
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(32, 101, 126);
+    overflow: hidden;
+    position: relative;
+}
+
+.login:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(163, 186, 189, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+}
+
+/* set1.css */
+
+h2 {
+    font-weight: bold;
+    font-size: 36px; /* Adjusted font size */
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Adding text shadow for effect */
+    margin-bottom: 30px; /* Adjust margin as needed */
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff; /* Adjusted color */
+}
+h2{
+    align-items: center;
+}
+
+
+
+label {
+    color: #fff(9, 8, 8, 0.8);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.96);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: none;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+
+#btn1{
+    background: rgb(17, 16, 18);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 0 5px  rgb(44, 124, 153);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-direction: row;
+    margin-right: 45px;
+    
+}
+.icons a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+#btn2{
+    background: #fff(17, 16, 18);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 60px;
+    box-shadow: 0 0 5px  rgb(44, 124, 153);
+    color:  #2c4c52;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+a{
+
+    display: flex;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+#btn1:hover {
+    background-color: rgb(44, 124, 153);
+    transform: scale(1.05);
+}
+#btn2:hover {
+    background-color: rgb(44, 124, 153);
+    transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+    .login {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    input, button {
+        height: 35px;
+        line-height: 35px;
+    }
+}

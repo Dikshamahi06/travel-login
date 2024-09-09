@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <link rel="stylesheet" href="set.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="login">
+        <form id="loginForm" action="idea.html" method="get" onsubmit="redirectToInputsPage(event)">
+            <!-- <b><h1 style="color: #e4a4f49d; font-size: 36px; text-transform: uppercase;">LOGIN </h1></b> -->
+            <h2>Log In</h2>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username"  placeholder="Username, email address or mobile number">
+            <label for="age">Password</label>
+            <input type="password" id="password" name="password"  placeholder="Password">
+            <button id="btn1" type="submit">Log in</button>
+            <a  href="#">Forgotten Password</a>
+            <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            
+            <button id="btn2" type="reset">Create new account</button>
+           
+        </form>
+    </div>
+    <!-- <script>
+        function redirectToInputsPage(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const age = document.getElementById('age').value;
+            const address = document.getElementById('address').value;
+            // Remove gender variable from here
+            const url = idea.html?username=${encodeURIComponent(username)}&age=${encodeURIComponent(age)}&address=${encodeURIComponent(address)};
+            window.location.href = url;
+        }
+    </script> -->
+</body>
+</html>
