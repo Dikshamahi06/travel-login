@@ -13,12 +13,12 @@
 <body>
     <div class="login">
         <form id="loginForm" action="idea.html" method="get" onsubmit="redirectToInputsPage(event)">
-            <!-- <b><h1 style="color: #e4a4f49d; font-size: 36px; text-transform: uppercase;">LOGIN </h1></b> -->
+          
             <h2>Log In</h2>
 
             <label for="username">Username</label>
             <input type="text" id="username" name="username"  placeholder="Username, email address or mobile number">
-            <label for="age">Password</label>
+            <label for="password">Password</label>
             <input type="password" id="password" name="password"  placeholder="Password">
             <button id="btn1" type="submit">Log in</button>
             <a  href="#">Forgotten Password</a>
@@ -32,16 +32,6 @@
            
         </form>
     </div>
-    <!-- <script>
-        function redirectToInputsPage(event) {
-            event.preventDefault();
-            const username = document.getElementById('username').value;
-            const age = document.getElementById('age').value;
-            const address = document.getElementById('address').value;
-            // Remove gender variable from here
-            const url = idea.html?username=${encodeURIComponent(username)}&age=${encodeURIComponent(age)}&address=${encodeURIComponent(address)};
-            window.location.href = url;
-        }
-    </script> -->
+   
 </body>
 </html>

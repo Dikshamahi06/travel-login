@@ -1,0 +1,122 @@
+/* 
+.quiz{
+    width: 500px;
+    height: 600px;
+    background: url("images/360_F_253986268_I3wMfXKQvcjNVcRSLDTMfKtkvbmpAj1J.jpg") center/cover; /* Ensure this path is correct */
+    /* color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(32, 101, 126);
+    overflow: hidden;
+    position: relative
+}
+header h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); 
+    
+
+}
+ */ 
+ /* body{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #69757b, #2c4c52,  #69757b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ .gif {
+    width: 300px; 
+    height: auto; 
+    border: 2px solid #000;
+    border-radius: 10px; 
+    display: block;
+    margin: 100 auto;
+    animation: popOut 3s ease-out forwards;
+ }
+    
+ @keyframes popOut {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1); 
+            opacity: 1;
+        }
+    }
+
+           */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #153544;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+        
+.quiz-container {
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            height: 600px;
+            background: url("images/Quiz\ background\ ans\ seamless.jpeg") center/cover; 
+          
+}
+.hidden {
+            display: none; 
+}
+#options-container{
+    color: aliceblue;
+    font-size: 20px;
+}
+#question-container{
+    margin-top: 30px;
+    background-color: #153544;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+        
+.btn {
+            background-color: #153544;
+            color: white;
+            border: none;
+            padding: 20px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+}
+        
+.btn:hover {
+    background-color: rgb(44, 124, 153);
+
+        }
+        
+h1 ,h2{
+            background-color: #153544;
+            text-align: center;
+            color:  white;
+            font-family: "Montserrat", sans-serif; 
+        }
+h2 span{
+    color: lightblue;
+    text-transform: capitalize;
+}
+        

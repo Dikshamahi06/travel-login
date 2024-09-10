@@ -11,10 +11,9 @@ body {
 
 
 .login {
-    /* border: 1px solid black; */
     width: 500px;
     height: 600px;
-    background: url("images/travel-hd-axhrsecphqby11wk.jpg") center/cover; /* Ensure this path is correct */
+    background: url("images/travel-hd-axhrsecphqby11wk.jpg") center/cover; 
     color: aliceblue;
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(32, 101, 126);
@@ -47,12 +46,12 @@ form {
 
 h2 {
     font-weight: bold;
-    font-size: 36px; /* Adjusted font size */
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Adding text shadow for effect */
-    margin-bottom: 30px; /* Adjust margin as needed */
+    font-size: 36px; 
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
-    color: #fff; /* Adjusted color */
+    color: #fff; 
 }
 h2{
     align-items: center;
